@@ -1,2 +1,2 @@
-# kiplings-blog
+# kiplings.lol
  
