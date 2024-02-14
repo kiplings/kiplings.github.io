@@ -1,2 +1,2 @@
-# kiplings.lol
+# [kippy](kiplings.lol)
  
