@@ -1,2 +1,2 @@
-# [kippy](kiplings.lol)
+kiplings.lol LOL
  
