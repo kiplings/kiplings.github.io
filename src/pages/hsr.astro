@@ -4,14 +4,18 @@ import Card from '../components/Card.astro';
 import Navbar from '../components/Navbar.astro';
 import { Image } from 'astro:assets';
 import hsr_banner from '../assets/hsr_banner2.png';
+import resin from '../assets/resin.webp';
 ---
 
 <Layout title="Kiplings Blog">
 	<main>
 		<div class="flex flex-col">
 			<Navbar></Navbar>
-            <div class="flex w-screen h-[50vh] justify-center bg-cover opacity-50" style={`background-image: url(${hsr_banner.src});`}>
-                <p>hey</p>
+            <div class="flex items-center w-screen h-[50vh] justify-center bg-cover" style={`background-image: url(${hsr_banner.src});`}>
+                <div class="flex flex-col items-center">
+                    <Image class="scale-75 drop-shadow-2xl" src={resin} alt=""/>
+                    <h1 class="text-white text-6xl font-bold drop-shadow-2xl">Relic Saving Tool</p>
+                </div>
             </div>
 		</div>
 	</main>
