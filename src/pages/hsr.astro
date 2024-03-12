@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar.astro';
 import { Image } from 'astro:assets';
 import hsr_banner from '../assets/hsr_banner2.png';
 import resin from '../assets/resin.webp';
+import RelicSearch from '../components/RelicSearch.astro';
 ---
 
 <Layout title="Kiplings Blog">
@@ -14,8 +15,19 @@ import resin from '../assets/resin.webp';
             <div class="flex items-center w-screen h-[50vh] justify-center bg-cover" style={`background-image: url(${hsr_banner.src});`}>
                 <div class="flex flex-col items-center">
                     <Image class="scale-75 drop-shadow-2xl" src={resin} alt=""/>
-                    <h1 class="text-white text-6xl font-bold drop-shadow-2xl">Relic Saving Tool</p>
+                    <h1 class="text-white text-6xl font-bold drop-shadow-2xl">Relic Saving Tool</h1>
                 </div>
+            </div>
+            <RelicSearch></RelicSearch>
+            <div class="grid grid-cols-2 gap-4 h-48 justify-center">
+                <Card></Card>
+                <Card></Card>
+                <Card></Card>
+                <Card></Card>
+                <Card></Card>
+                <Card></Card>
+                <Card></Card>
+                <Card></Card>
             </div>
 		</div>
 	</main>
