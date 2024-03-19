@@ -1,3 +1,28 @@
-<div class="bg-gray-700 min-h-60 min-w-96 p-5">
-    <label class="text-white text-4xl font-bold drop-shadow-2xl">Relic Name</label>
+---
+import { Image } from 'astro:assets';
+import remains from '../assets/remains.webp';
+---
+
+<!-- <div tabindex="0" class="collapse flex flex-row bg-gray-700 min-w-96 p-4 gap-5">
+    <Image class="size-32 drop-shadow-2xl" src={remains} alt=""/>
+    <div class ="collapse-title flex flex-col gap-2 py-2">
+        <label class="text-white text-4xl font-bold drop-shadow-2xl">Relic Name</label>
+        <label class="text-gray-300 text-lg drop-shadow-2xl">Relic Type</label>
+            <div class="collapse-content"> 
+                <p>relic stats?</p>
+            </div>
+    </div>
+</div> -->
+<div class="collapse">
+    <input type="checkbox" />
+    <div class="collapse-title flex flex-row bg-gray-700 min-w-96 p-4 gap-5">
+        <Image class="size-32 drop-shadow-2xl" src={remains} alt=""/>
+        <div class="flex flex-col gap-2 py-2">
+            <label class="text-white text-4xl font-bold drop-shadow-2xl">Relic Name</label>
+            <label class="text-gray-300 text-lg drop-shadow-2xl">Relic Type</label>
+        </div>
+    </div>
+        <div class="collapse-content bg-gray-700"> 
+            <p>hello</p>
+        </div>
 </div>
