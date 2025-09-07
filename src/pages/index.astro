@@ -4,6 +4,8 @@ import Card from '../components/Card.astro';
 import Navbar from '../components/Navbar.astro';
 import { Image } from 'astro:assets';
 import hsr_banner from '../assets/hsr_banner2.png';
+import pfp from '../assets/xmas-spidey.png';
+
 ---
 
 <Layout title="Kiplings Blog">
@@ -12,9 +14,15 @@ import hsr_banner from '../assets/hsr_banner2.png';
 			<Navbar></Navbar>
             <div class="flex items-center w-screen h-[50vh] justify-center bg-cover">
                 <div class="flex flex-col items-center">
-					<div class="flex flex-col gap-6 w-full max-w-2xl rounded-lg md:border p-8">
-						<h1 class="text-white text-2xl font-bold drop-shadow-2xl">Hello!</h1>
-						
+					<div class="flex flex-col gap-6 w-full max-w-2xl rounded-lg md:border border-gray-400 p-8">
+						<div class="flex flex-row gap-3">
+                   			<Image class="w-28 rounded-full" src={pfp} alt=""/>
+							<div class="flex flex-col gap-2">
+								<h1 class="text-slate-300 text-2xl font-bold drop-shadow-2xl">Kiplings</h1>
+								<div class="bg-slate-600 h-[1px] w-[20%]"></div>
+								<p class="text-slate-300 drop-shadow-2xl">Welcome! This is my page where I talk about random little interests of mine, and hopefully help some people out!</p>
+							</div>
+						</div>						
 					</div>
                 </div>
             </div>
