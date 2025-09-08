@@ -1,5 +1,7 @@
 ---
 import "../styles/global.css";
+import '@fontsource/karla';
+
 
 interface Props {
 	title: string;
@@ -19,11 +21,11 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="bg-[#1F1A26]">
+	<body class="bg-[#1F1A26] text-slate-300 drop-shadow-2xl">
 		<slot />
 	</body>
 </html>
-<style is:global>
+<!-- <style is:global>
 	:root {
 		--accent: 136, 58, 234;
 		--accent-light: 224, 204, 250;
@@ -51,12 +53,4 @@ const { title } = Astro.props;
 			Courier New,
 			monospace;
 	}
-
-@font-face {
-  font-family: 'JDKVindil';
-  src: url('/fonts/JDK Vindil.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-</style>
+</style> -->
