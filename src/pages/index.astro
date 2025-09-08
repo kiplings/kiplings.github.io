@@ -1,27 +1,29 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
 import Navbar from '../components/Navbar.astro';
 import { Image } from 'astro:assets';
-import hsr_banner from '../assets/hsr_banner2.png';
 import pfp from '../assets/xmas-spidey.png';
+import Socials from '../components/Socials.astro';
 
 ---
 
-<Layout title="Kiplings Blog">
+<Layout title="Kiplings">
 	<main>
 		<div class="flex flex-col h-screen justify-start gap-4">
-			<Navbar></Navbar>
+			<Navbar/>
             <div class="flex items-center w-screen justify-center bg-cover">
                 <div class="flex flex-col items-center">
 					<div class="flex flex-col gap-6 w-full max-w-2xl rounded-lg md:border border-[#45414c] p-8">
-						<div class="flex flex-row gap-3">
-                   			<Image class="w-28 rounded-full" src={pfp} alt=""/>
+						<div class="flex flex-row-reverse gap-3">
+							<div class="flex flex-col justify-center items-center gap-4">
+								<Image class="max-w-32 max-h-32 rounded-full" src={pfp} alt=""/>
+								<Socials/>
+							</div>
 							<div class="flex flex-col">
 								<h1 class=" text-2xl font-bold text-[#a676e8]">Kiplings</h1>
 								<p>(he/him)</p>
 								<div class="bg-[#45414c] h-px my-2 w-[20%]"></div>
-								<p class="">Welcome! This is my page where I talk about random little interests of mine, and hopefully help some people out!</p>
+								<p class="">Welcome! This is my page where I talk about random little interests of mine, and hopefully help some people out! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ut aliquip ex ea commodo consequatr occaecat cupidaqui officia deserunt mollit anim id est laborum.</p>
 							</div>
 						</div>						
 					</div>
