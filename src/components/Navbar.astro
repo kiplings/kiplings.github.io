@@ -5,20 +5,20 @@ const selected = 'text-primary';
 
 <div transition:animate="none" class="flex flex-row justify-center md:gap-12">
     <a href="/" 
-        class={`cursor-pointer rounded-lg text-lg p-3 ${path === '/' ? selected : ""}`}
+        class={`cursor-pointer rounded-lg text-lg p-3 ${path.replaceAll('/', '') === '' ? selected : ""}`}
         aria-current="page">
         Home
     </a>
     <a href="/about" 
-        class={`cursor-pointer rounded-lg text-lg p-3 ${path === '/about' ? selected : ""}`}
+        class={`cursor-pointer rounded-lg text-lg p-3 ${path.replaceAll('/', '') === 'about' ? selected : ""}`}
         aria-current="page">
         About
     </a>
     <a href="/blog" 
-        class={`cursor-pointer rounded-lg text-lg p-3 ${path === '/blog' ? selected : ""}`}
+        class={`cursor-pointer rounded-lg text-lg p-3 ${path.replaceAll('/', '') === 'blog' ? selected : ""}`}
         aria-current="page">Blog</a>
     <a href="/photos" 
-        class={`cursor-pointer rounded-lg text-lg p-3 ${path === '/photos' ? selected : ""}`}
+        class={`cursor-pointer rounded-lg text-lg p-3 ${path.replaceAll('/', '') === 'photos' ? selected : ""}`}
         aria-current="page">
         Photos
     </a>
