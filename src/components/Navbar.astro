@@ -3,7 +3,7 @@ const path = Astro.url.pathname;
 const selected = 'text-primary';
 ---
 
-<div transition:animate="none" class="flex flex-row justify-center md:gap-12 md:mt-[20vh] mt-[5vh]">
+<div transition:animate="none" class="flex flex-row justify-center md:gap-12">
     <a href="/" 
         class={`cursor-pointer rounded-lg text-lg p-3 ${path === '/' ? selected : ""}`}
         aria-current="page">
