@@ -28,11 +28,9 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body transition:animate="fade" class="bg-[#1F1A26] text-slate-300 text-lg drop-shadow-2xl overflow-x-hidden h-auto">
-		<div class="flex flex-col h-screen justify-start gap-4">
+		<div class="flex flex-col h-screen justify-start items-center gap-4">
 			<Navbar/>
-			<div class="grid md:grid-cols-[30vw_30vw] grid-cols-[75vw] items-center w-screen justify-center justify-items-center gap-8">
-				<slot />
-			</div>
+			<slot />
 		</div>
 	</body>
 </html>

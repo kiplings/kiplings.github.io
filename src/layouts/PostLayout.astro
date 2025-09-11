@@ -1,0 +1,12 @@
+---
+import ContentLayout from './ContentLayout.astro';
+const { frontmatter } = Astro.props;
+---
+<ContentLayout title={frontmatter.title}>
+    <h1 class="text-2xl font-bold text-primary mt-[5vh]">{frontmatter.title}</h1>
+    <div class="border rounded-md p-5 gap-6">
+        <p>{frontmatter.pubDate.toString().slice(0,10)}</p>
+        <p><em>{frontmatter.description}</em></p>
+        <slot/>
+    </div>
+</ContentLayout>

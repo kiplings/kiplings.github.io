@@ -8,8 +8,12 @@ import ContentLayout from '../layouts/ContentLayout.astro';
 ---
 
 <ContentLayout title="About">
-	<Image class="rounded-lg border-2 border-secondary" src={waiting} alt=""/>
-	<Image class="rounded-lg border-2 border-secondary" src={waiting} alt=""/>
-	<Image class="rounded-lg border-2 border-secondary" src={waiting} alt=""/>
-	<Image class="rounded-lg border-2 border-secondary" src={waiting} alt=""/>
+	<div class="grid md:grid-cols-[30vw_30vw] grid-cols-[75vw] items-center w-screen justify-center justify-items-center gap-8">
+		<a href="/posts/post-1">
+			<Image class="rounded-lg border-2 border-secondary" src={waiting} alt=""/>
+		</a>
+		<Image class="rounded-lg border-2 border-secondary" src={waiting} alt=""/>
+		<Image class="rounded-lg border-2 border-secondary" src={waiting} alt=""/>
+		<Image class="rounded-lg border-2 border-secondary" src={waiting} alt=""/>
+	</div>
 </ContentLayout>
