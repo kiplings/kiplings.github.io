@@ -1,10 +1,38 @@
 ---
 layout: ../../layouts/PostLayout.astro
-title: 'My First Blog Post'
-pubDate: 09-10-2025
-description: 'This is my first test post. More to come!'
-# author: 'Astro Learner'
-tags: ["astro", "blogging", "learning in public"]
+title: Test Blog Post 1
+description: Description 1
+date: 2024-06-30T15:06:00
+image: ./post-1/dollar.jpg
+imageAlt: Alt text 1
 ---
 
-![image](post-1/dollar.png)
+![](./post-1/dollar.png)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at lacus vitae sapien porttitor fermentum. Donec a nisi lorem. Morbi efficitur dapibus nisi, non blandit ligula porttitor vel. Cras posuere convallis quam, at euismod leo pulvinar id.
+
+## Heading
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula metus vel ligula laoreet, a egestas erat placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse vel metus fringilla, porta enim ac, tincidunt nunc.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla tortor in diam congue, vitae ullamcorper felis efficitur. Nullam at magna ac erat varius tincidunt. Sed convallis, justo nec tincidunt sollicitudin, sapien massa ultrices ex, in egestas elit nisi in diam.
+
+## Heading
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed nisi nec risus fermentum fermentum. Cras efficitur ante quis sapien vestibulum, id rutrum sapien sodales. Aenean nec tellus vehicula, efficitur sapien vel, ornare ipsum. 
+
+### Heading
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra nisl vel augue porttitor, sed rhoncus massa dapibus. Curabitur dictum lacus ut eros malesuada rutrum. Sed feugiat feugiat sagittis. 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis arcu sit amet semper tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod tincidunt lorem, ac blandit nulla placerat a. Sed vehicula, turpis ut facilisis aliquam, tellus tellus posuere sem, sed porttitor metus lorem sed nulla. Etiam viverra risus a tortor placerat, id tincidunt est tincidunt.
+
+### Heading
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis justo ac ligula eleifend tristique. Nulla facilisi. Vivamus ullamcorper, ipsum a luctus gravida, sapien leo pharetra erat, nec tristique risus tellus nec justo.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suscipit ante in dolor suscipit, vel imperdiet nisi accumsan. Curabitur et turpis eget felis rutrum volutpat. Aliquam erat volutpat. Morbi finibus, elit a lacinia pretium, sapien arcu tempus orci, eget cursus odio lectus sed nulla.
+
+### Heading
