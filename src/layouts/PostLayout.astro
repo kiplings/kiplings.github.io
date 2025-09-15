@@ -8,13 +8,14 @@ const { frontmatter } = Astro.props;
 
 <ContentLayout title={frontmatter.title}>
     <ClientRouter />
+    <!-- <div class="border-2 border-amber-400 size-32"></div> -->
     <div class="mx-2">
-        <h1 class="text-2xl font-bold text-primary text-center mt-[5vh]">{frontmatter.title}</h1>
+        <h1 class="text-2xl font-bold text-primary text-center">{frontmatter.title}</h1>
         <!-- <Image src={frontmatter.image} alt=""></Image> -->
         <div class="p-5 gap-6">
             <!-- <p>{frontmatter.pubDate.toString().slice(0,10)}</p> -->
-            <p><em>{frontmatter.description}</em></p>
-            <div class="prose dark:prose-invert">
+            <!-- <p><em>{frontmatter.description}</em></p> -->
+            <div class="prose dark:prose-invert text-lg min-w-[40vw]">
                 <slot/>
             </div>
         </div>

@@ -1,13 +1,22 @@
 ---
 layout: ../../layouts/PostLayout.astro
-title: Test Blog Post 1
+title: A PrintCostume Ordering Guide
 description: Description 1
 date: 2024-06-30T15:06:00
-image: ./post-1/dollar.jpg
+image: ./printcostume-ordering-guide/dollar.jpg
 imageAlt: Alt text 1
 ---
+<ol>
+    <li><a href="printcostume-ordering-guide">Introduction</a></li>
+    <li><a href="printcostume-ordering-guide/pattern-prep">Finding a Pattern</a></li>
+    <li><a href="printcostume-ordering-guide/measurements">Measurements</a></li>
+    <li><a href="printcostume-ordering-guide/suit-options">Suit Options</a></li>
+    <li><a href="printcostume-ordering-guide/faceshells">Faceshells</a></li>
+    <li><a href="printcostume-ordering-guide/conclusion">Conclusion</a></li>
+</ol>
 
-![](./post-1/dollar.png)
+<!-- ![](./printcostume-ordering-guide/dollar.png) -->
+## Heading
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at lacus vitae sapien porttitor fermentum. Donec a nisi lorem. Morbi efficitur dapibus nisi, non blandit ligula porttitor vel. Cras posuere convallis quam, at euismod leo pulvinar id.
 
