@@ -1,0 +1,11 @@
+---
+import { Image } from 'astro:assets';
+import temp from '../assets/waiting-spidey.webp';
+---
+
+<a class="relative rounded-lg border-2 border-secondary transition duration-100 ease-in-out hover:-translate-y-1 hover:scale-105" href="/blog/printcostume-ordering-guide">
+	<Image class="rounded-lg" src={temp} alt=""/>
+	<div class="flex absolute inset-x-0 bottom-0 h-[30%] bg-black/50 rounded-lg items-center justify-center">
+		<h1 class="text-slate-300 text-3xl font-bold">Blog Post 1</h1>
+	</div>
+</a>

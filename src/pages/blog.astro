@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Navbar from '../components/Navbar.astro';
+import BlogPost from '../components/BlogPost.astro';
 import { Image } from 'astro:assets';
 import waiting from '../assets/waiting-spidey.webp';
 import ContentLayout from '../layouts/ContentLayout.astro';
@@ -9,8 +9,7 @@ import ContentLayout from '../layouts/ContentLayout.astro';
 
 <ContentLayout title="About">
 	<div class="grid md:grid-cols-[30vw_30vw] grid-cols-[75vw] items-center w-screen justify-center justify-items-center gap-8 ">
-		<a href="/blog/printcostume-ordering-guide">
-			<Image class="rounded-lg border-2 border-secondary transition duration-100 ease-in-out hover:-translate-y-1 hover:scale-105" src={waiting} alt=""/>
-		</a>
+		<BlogPost/>
+		<BlogPost/>
 	</div>
 </ContentLayout>
