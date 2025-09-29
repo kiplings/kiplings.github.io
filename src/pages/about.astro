@@ -3,8 +3,8 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import { Image } from 'astro:assets';
 import now_reading from '../assets/steph_v2.webp';
+import now_watching from '../assets/rascal_santa.png';
 import pfp from '../assets/xmas-spidey.png';
-import Socials from '../components/Socials.astro';
 
 ---
 
@@ -27,19 +27,23 @@ import Socials from '../components/Socials.astro';
 								</div>
 								<div class="flex flex-col mt-4 gap-1.5 leading-8">
 									<h1 class="font-bold text-2xl">Anime</h1>
-									<p class="">Anime has been a huge part of my life since I was a very young teen. The first one I ever watched was Squid Girl, of all things, purely because at the time I was extremely excited for the release of Splatoon. I'm glad that I was able to experience so many incredible stories because of such a small choice I made years ago. If you'rea reading this, you should absolutely check out <a href="https://anilist.co/anime/12189/Hyouka" class="font-medium text-primary hover:underline">Hyouka</a> It's easily my favorite anime of all time and I highly recommend everyone give it a shot, it will always have a special place in my heart! :)</p>
+									<p class="">Anime has been a huge part of my life since I was a very young teen. The first one I ever watched was Squid Girl, of all things, purely because at the time I was extremely excited for the release of Splatoon. I'm glad that I was able to experience so many incredible stories because of such a small choice I made years ago. If you're reading this, you should absolutely check out <a href="https://anilist.co/anime/12189/Hyouka" class="font-medium text-primary hover:underline">Hyouka</a> It's easily my favorite anime of all time and I highly recommend everyone give it a shot, it will always have a special place in my heart! :)</p>
+									<div class="bg-secondary h-px my-2 max-w-full mx-8"></div>
 									<h1 class="font-bold text-2xl">Comics</h1>
-									<p class="">As long as I can remember, I've adored the world of superhero comics. Some of my earliest memories are playing the original Lego Batman and watching the 2003 Teen Titans cartoon.</p>
+									<p class="">As long as I can remember, I've adored the world of superhero comics. In fact, some of my earliest memories are playing the original Lego Batman and watching the 2003 Teen Titans cartoon. Despite always adoring adapatations of these characters and their stories, it was only a few years ago when I started to look deeper into the source material itself. It's not as complicated as it seems! Although there's still countless runs I've yet to experience, I look forward to diving deeper into the decades of material available and gaining a new-found appreciate for these characters I've known for so long.</p>
+									<div class="bg-secondary h-px my-2 max-w-full mx-8"></div>
 									<h1 class="font-bold text-2xl">Cosplay</h1>
-									<p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam rerum consequuntur tempore velit maxime eius. Autem aperiam consequuntur hic nulla accusantium ea aliquam. Necessitatibus earum nemo explicabo provident ullam obcaecati?</p>
-									<h1 class="font-bold text-2xl">Anime</h1>
-									<p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam rerum consequuntur tempore velit maxime eius. Autem aperiam consequuntur hic nulla accusantium ea aliquam. Necessitatibus earum nemo explicabo provident ullam obcaecati?</p>
+									<p class="">If you asked me a few years ago, I would've been adamant that cosplaying would never be something I would do. How could I? It seemed impossible to even think about putting myself out there in that way. And yet, with the encouragement of some friends, I tried it out for the first time at Anime Expo 2024. Since then, I've done several others, usually Spider-Man, and loved it each time. Conventions can be an incredibly rewarding experience, and if you're considering it, I highly recommend doing your best to overcome the nerves and try it out!</p>
 								</div>
 							</div>
-							<div class="flex flex-col md:self-start self-center justify-center items-center gap-4 max-w-64 min-w-64">
+							<div class="flex flex-col self-center justify-center items-center gap-4 max-w-64 min-w-64">
 								<h1 class="text-2xl font-bold text-primary">Currently Reading:</h1>
 								<a href="https://leagueofcomicgeeks.com/comics/series/111300/batgirl" target="_blank">
 									<Image class="rounded-md border border-slate-300" src={now_reading} alt=""/>
+								</a>
+								<h1 class="text-2xl font-bold text-primary">Currently Watching:</h1>
+								<a href="https://anilist.co/anime/171046/Rascal-Does-Not-Dream-of-Santa-Claus/" target="_blank">
+									<Image class="rounded-md border border-slate-300" src={now_watching} alt=""/>
 								</a>
 							</div>
 						</div>						
